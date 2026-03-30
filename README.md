@@ -29,4 +29,4 @@ To pack the extension for distribution:
 Pull requests and suggestions are welcome!
 
 ## License
-MIT
+This project is licensed under the [GNU General Public License v3.0 (GPL-3.0)](LICENSE).
