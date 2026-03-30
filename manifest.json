@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Workspace Tab Locker",
+  "version": "1.0",
+  "permissions": ["tabs", "storage", "sessions"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "locked.png"
+  },
+  "commands": {
+    "toggle-lock-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Z"
+      },
+      "description": "Toggle lock for the current tab"
+    }
+  }
+}
